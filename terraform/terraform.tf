@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "cloudcore007"
+    bucket = "reactjsapp-terraform-eks"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
